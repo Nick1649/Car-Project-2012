@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9DE427C2-6BDB-4945-8F3F-4066A622EC3B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Car_Project.My.MyApplication</StartupObject>
+    <RootNamespace>Car_Project</RootNamespace>
+    <AssemblyName>Car Project</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Car Project.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Car Project.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChevyCar.Designer.vb">
+      <DependentUpon>ChevyCar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChevyCar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChevyPick.Designer.vb">
+      <DependentUpon>ChevyPick.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChevyPick.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DodgeCar.Designer.vb">
+      <DependentUpon>DodgeCar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DodgeCar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DodgePick.Designer.vb">
+      <DependentUpon>DodgePick.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DodgePick.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FordCar.Designer.vb">
+      <DependentUpon>FordCar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FordCar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FordPick.Designer.vb">
+      <DependentUpon>FordPick.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FordPick.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HondaCar.Designer.vb">
+      <DependentUpon>HondaCar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HondaCar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HondaPick.Designer.vb">
+      <DependentUpon>HondaPick.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HondaPick.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.vb">
+      <DependentUpon>Menu.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="StarWars.Designer.vb">
+      <DependentUpon>StarWars.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StarWars.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VWCar.Designer.vb">
+      <DependentUpon>VWCar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VWCar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VWPick.Designer.vb">
+      <DependentUpon>VWPick.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VWPick.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ChevyCar.resx">
+      <DependentUpon>ChevyCar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChevyPick.resx">
+      <DependentUpon>ChevyPick.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DodgeCar.resx">
+      <DependentUpon>DodgeCar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DodgePick.resx">
+      <DependentUpon>DodgePick.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FordCar.resx">
+      <DependentUpon>FordCar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FordPick.resx">
+      <DependentUpon>FordPick.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HondaCar.resx">
+      <DependentUpon>HondaCar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HondaPick.resx">
+      <DependentUpon>HondaPick.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StarWars.resx">
+      <DependentUpon>StarWars.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VWCar.resx">
+      <DependentUpon>VWCar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VWPick.resx">
+      <DependentUpon>VWPick.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Chevrolet-logo-300x299.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\4253248173_8277702e01_z.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\fordlogo2003.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\ford-logo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Honda_400.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\honda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\201px-Dodge_logo.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\star_wars_1_86239.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\lrg_Star_Wars50.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\lrg_newchevrolet.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\logo_chevrolet.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Chevy Cars\chev_cruz_ext_ph_big_13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Chevy Cars\Aveo\chev_aveo_ext_ph_big_03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Chevy Cars\Sonic\chev_soni_ext_ph_big_13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Chevy Cars\Sonic\chev_soni_ext_ph_big_07.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Chevy Cars\Aveo\chev_aveo_ext_ph_big_02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Chevy Cars\Volt\chev_volt_ext_ph_big_01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Chevy Cars\Volt\chev_volt_ext_ph_big_04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Chevy Cars\Volt\chev_volt_ext_ph_big_08.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Chevy Cars\Camero\chev_cama_ext_ph_big_01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Chevy Cars\Camero\chev_cama_ext_ph_big_04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\nights-in-light-city-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\-these-and-auto-unions-black-white-stream-of-city-lights-wallpaper-b-o-ibackgroundz.com.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Black and White Busy City the-long-goodbye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\blackandwhitecityoverpasstlg2011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\slide2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Chevy Cars\Sonic\chev_soni_ext_ph_big_06.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Chevy Cars\Cruze\chev_cruz_ext_ph_big_07.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\autobahn_by_hans64_kjz-d36xubd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\VW Cars\Jetta1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\VW Cars\Golf1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\VW Cars\Beetle1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\VW Cars\Beetle2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\VW Cars\Passat1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\VW Cars\Rotan1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\road_miller.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\fordLogoEn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\city_traffic_lights_in_black_and_white-wide.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Ford Cars\Fiesta1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Ford Cars\Focus1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Ford Cars\Fusion1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Ford Cars\Tauras.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Ford Cars\Mustang.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\abbey-road15041s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\open-road1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\pod2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\6a0148c7628432970c014e88a08896970d-800wi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Honda Cars\Fit1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Honda Cars\Civic1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Honda Cars\Inisght.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Honda Cars\CR-Z.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Honda Cars\Accord.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Dodge Cars\durango.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Dodge Cars\avenger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Dodge Cars\challenger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Dodge Cars\charger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Car Project Resource\Dodge Cars\grandcaravan.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lrg_Star_Wars50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\lrg_Star_Wars50.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="open-road1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\open-road1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="durango" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Dodge Cars\durango.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="city_traffic_lights_in_black_and_white-wide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\city_traffic_lights_in_black_and_white-wide.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DodgeLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\201px-Dodge_logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChevyLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Chevrolet-logo-300x299.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="challenger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Dodge Cars\challenger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="201px-Dodge_logo.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\201px-Dodge_logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Volt2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Chevy Cars\Volt\chev_volt_ext_ph_big_01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="city_traffic_lights_in_black_and_white-wide1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\city_traffic_lights_in_black_and_white-wide.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="-these-and-auto-unions-black-white-stream-of-city-lights-wallpaper-b-o-ibackgroundz.com" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\-these-and-auto-unions-black-white-stream-of-city-lights-wallpaper-b-o-ibackgroundz.com.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Focus1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Ford Cars\Focus1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sonic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Chevy Cars\Sonic\chev_soni_ext_ph_big_07.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Autobahn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\autobahn_by_hans64_kjz-d36xubd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fit1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Honda Cars\Fit1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="road_miller" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\road_miller.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cruze1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Chevy Cars\chev_cruz_ext_ph_big_13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pod2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\pod2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_chevrolet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\logo_chevrolet.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Beetle1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\VW Cars\Beetle1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slide2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\slide2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Golf1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\VW Cars\Golf1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fordLogoEn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\fordLogoEn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fordlogo2003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\fordlogo2003.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VWLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\4253248173_8277702e01_z.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="charger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Dodge Cars\charger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="star_wars_1_86239" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\star_wars_1_86239.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Camero1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Chevy Cars\Camero\chev_cama_ext_ph_big_01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Volt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Chevy Cars\Volt\chev_volt_ext_ph_big_08.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6a0148c7628432970c014e88a08896970d-800wi1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\6a0148c7628432970c014e88a08896970d-800wi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grandcaravan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Dodge Cars\grandcaravan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chev_soni_ext_ph_big_131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Chevy Cars\Sonic\chev_soni_ext_ph_big_13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Beetle2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\VW Cars\Beetle2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fiesta1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Ford Cars\Fiesta1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HondaLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\honda.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abbey-road15041s" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\abbey-road15041s.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Jetta1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\VW Cars\Jetta1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sonic2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Chevy Cars\Sonic\chev_soni_ext_ph_big_06.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FordLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\ford-logo2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HondaLogo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Honda_400.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Passat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\VW Cars\Passat1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lrg_newchevrolet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\lrg_newchevrolet.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aveo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Chevy Cars\Aveo\chev_aveo_ext_ph_big_02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aveo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Chevy Cars\Aveo\chev_aveo_ext_ph_big_03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mustang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Ford Cars\Mustang.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="avenger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Dodge Cars\avenger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chev_soni_ext_ph_big_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Chevy Cars\Sonic\chev_soni_ext_ph_big_13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nights" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\nights-in-light-city-background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Civic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Honda Cars\Civic1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tauras" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Ford Cars\Tauras.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rotan1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\VW Cars\Rotan1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4253248173_8277702e01_z" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\4253248173_8277702e01_z.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fusion1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Ford Cars\Fusion1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nights-in-light-city-background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\nights-in-light-city-background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CR-Z" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Honda Cars\CR-Z.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inisght" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Honda Cars\Inisght.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cruze2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Chevy Cars\Cruze\chev_cruz_ext_ph_big_07.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6a0148c7628432970c014e88a08896970d-800wi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\6a0148c7628432970c014e88a08896970d-800wi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="honda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\honda.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Accord" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\Honda Cars\Accord.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="open-road11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Car Project Resource\open-road1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
